@@ -1,0 +1,42 @@
+body {
+    background-color: #e0ddd7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Petit Formal Script', sans-serif;
+    font-weight: 500;
+    font-size : 4.25rem;
+}
+
+form {
+    flex-direction: column;
+
+    input,button {
+        font-size : 1rem;
+        padding : 0.75rem;
+    }
+    
+    button {
+        margin-top : 0.5rem;
+        background-color: #1abc9c;
+    }
+}
+
+section {
+    background-color: #1abc9c;
+    min-height : 250px;
+
+    h2 {
+        font-size : 2rem;
+    }
+
+    p {
+        font-weight: 300;
+        font-size : 1rem;
+    }
+
+    h2,p {
+        padding : 0.5rem;
+    }
+}

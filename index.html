@@ -30,21 +30,23 @@
     ></script>
     <script defer src="./scripts/jquery.min.js"></script>
     <script defer src="./scripts/generateBorder.js"></script>
+    <link rel="stylesheet" href="./styles/css/index.css" />
   </head>
   <body>
     <div class="colorBorder d-flex"></div>
     <main>
-      <h1>Pixly</h1>
-      <p>
+      <h1 class="text-center mt-4">Pixly</h1>
+      <p class="lead text-center">
         Picture galleries on your phone done right. It's time to shake things
         up. Get on our beta list.
       </p>
-      <form>
-        <input type="text" placeholder="Enter your email address" />
-        <button type="submit">Get Notified</button>
+      <form class="container-xxl d-flex justify-content-evenly mt-5">
+        <input class="text-center border-0" type="email" placeholder="Enter your email address" />
+        <button class="text-center border-0 text-white" type="submit">Get Notified</button>
       </form>
+      <img class="phone mt-5 mb-5" src="./assets/phone.png" alt="phone" />
     </main>
-    <section>
+    <section class="text-center d-flex flex-column align-items-center justify-content-center text-white">
       <h2>Spread the word about Pixley!</h2>
       <p>Free downloads for people who refer 10 friends.</p>
     </section>
