@@ -40,3 +40,18 @@ section {
         padding : 0.5rem;
     }
 }
+
+footer {
+    padding : 0.5rem;
+    min-height : 150px;
+    background-color: #3f4747;
+
+    p,div {
+        padding : 0.25rem;
+        opacity : 0.6;
+    }
+
+    div {
+        width : 40%;
+    }
+}
