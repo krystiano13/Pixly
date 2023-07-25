@@ -1,14 +1,106 @@
 .lead {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    opacity : 0.7;
-    font-size: 1.3rem;
-    max-width : 95vw;
-    margin-left : 2.5vw;
-    width : 100vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 1.3rem;
+  max-width: 95vw;
+  margin-left: 2.5vw;
+  width: 100vw;
 }
 
 .phone {
-    width : 90vw;
-    margin-left : 5vw;
+  width: 90vw;
+  margin-left: 5vw;
+
+  @media screen and (min-width: 992px) {
+    width : 45vw;
+    margin-left : 27.5vw;
+    position: relative;
+    z-index : -1;
+    transform: translateY(5vh);
+  }
+
+   @media screen and (min-width: 1400px) {
+    width : 45vw;
+    margin-left : 27.5vw;
+    position: relative;
+    z-index : -1;
+    transform: translateY(10vh);
+  }
+}
+
+@media screen and (min-width : 992px){
+    section,footer {
+        z-index : 1000;
+    }
+}
+
+main {
+  @media screen and (min-width: 992px) {
+    height : 75vh;
+    .title {
+      padding-top: 4rem;
+    }
+
+    .lead {
+      padding-left: 24vw;
+      padding-right: 24vw;
+      font-size: 1.5rem;
+    }
+  }
+  @media screen and (min-width: 1800px) {
+    .lead {
+      padding-left: 30vw;
+      padding-right: 30vw;
+    }
+  }
+
+   @media screen and (min-width: 2400px) {
+    .title {
+        font-size: 6rem;
+        padding-top: 8rem;
+    }
+    .lead {
+      padding-left: 34vw;
+      padding-right: 34vw;
+      font-size: 1.7rem;
+      padding-top: 2rem;
+    }
+  }
+}
+
+.form {
+  @media screen and (min-width: 992px) {
+    display : flex;
+    flex-direction: row;
+
+    padding-left : 25vw;
+    padding-right : 25vw;
+
+    input,button {
+        margin : 0;
+    }
+
+    input {
+        width : 70%;
+    }
+
+    button {
+        width : 30%;
+    }
+  }
+  @media screen and (min-width: 1800px) {
+    padding-left : 15vw;
+    padding-right : 15vw;
+  }
+
+   @media screen and (min-width: 2400px) {
+    padding-left : 12vw;
+    padding-right : 12vw;
+
+     input,button {
+        padding : 0.8rem;
+        font-size : 1.75rem;
+    }
+  }
 }
