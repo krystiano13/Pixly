@@ -13,31 +13,32 @@
   margin-left: 5vw;
 
   @media screen and (min-width: 992px) {
-    width : 45vw;
-    margin-left : 27.5vw;
+    width: 45vw;
+    margin-left: 27.5vw;
     position: relative;
-    z-index : -1;
+    z-index: -1;
     transform: translateY(5vh);
   }
 
-   @media screen and (min-width: 1400px) {
-    width : 45vw;
-    margin-left : 27.5vw;
+  @media screen and (min-width: 1400px) {
+    width: 45vw;
+    margin-left: 27.5vw;
     position: relative;
-    z-index : -1;
+    z-index: -1;
     transform: translateY(10vh);
   }
 }
 
-@media screen and (min-width : 992px){
-    section,footer {
-        z-index : 1000;
-    }
+@media screen and (min-width: 992px) {
+  section,
+  footer {
+    z-index: 1000;
+  }
 }
 
 main {
   @media screen and (min-width: 992px) {
-    height : 75vh;
+    height: 80vh;
     .title {
       padding-top: 4rem;
     }
@@ -55,10 +56,11 @@ main {
     }
   }
 
-   @media screen and (min-width: 2400px) {
+  @media screen and (min-width: 2400px) {
+    height: 75vh;
     .title {
-        font-size: 6rem;
-        padding-top: 8rem;
+      font-size: 6rem;
+      padding-top: 8rem;
     }
     .lead {
       padding-left: 34vw;
@@ -67,40 +69,66 @@ main {
       padding-top: 2rem;
     }
   }
+
+  @media screen and (min-width: 3200px) {
+    height: 85vh;
+
+    .title {
+        font-size : 10rem;
+        margin-top : 10rem;
+    }
+
+    .lead {
+        font-size : 3rem;
+    }
+  }
 }
 
 .form {
   @media screen and (min-width: 992px) {
-    display : flex;
+    display: flex;
     flex-direction: row;
 
-    padding-left : 25vw;
-    padding-right : 25vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
 
-    input,button {
-        margin : 0;
+    input,
+    button {
+      margin: 0;
     }
 
     input {
-        width : 70%;
+      width: 70%;
     }
 
     button {
-        width : 30%;
+      width: 30%;
     }
   }
   @media screen and (min-width: 1800px) {
-    padding-left : 15vw;
-    padding-right : 15vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 
-   @media screen and (min-width: 2400px) {
-    padding-left : 12vw;
-    padding-right : 12vw;
+  @media screen and (min-width: 2400px) {
+    padding-left: 12vw;
+    padding-right: 12vw;
 
-     input,button {
-        padding : 0.8rem;
-        font-size : 1.75rem;
+    input,
+    button {
+      padding: 0.8rem;
+      font-size: 1.75rem;
+    }
+  }
+
+  @media screen and (min-width: 3200px) {
+    padding-left: 6vw;
+    padding-right: 6vw;
+
+    input,
+    button {
+      padding: 1rem;
+      font-size: 2rem;
     }
   }
 }
